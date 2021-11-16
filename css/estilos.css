@@ -265,6 +265,11 @@ h2 {
     }
 
     .ingreso, .egreso{
-        margin-left: 20px;
+        margin-left: -20px;
+    }
+
+    .contenedor {
+        width: 80%;
+        margin: 60px auto;
     }
 }

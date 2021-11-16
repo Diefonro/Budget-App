@@ -256,3 +256,15 @@ h2 {
 .elemento:hover .elemento_eliminar--btn { display: block; }
 .elemento:hover .elemento_valor { transform: translateX(-20px); }
 .elemento:hover .elemento_porcentaje { transform: translateX(-20px); }
+
+
+@media only screen and (min-width: 280px) and (max-device-width: 767px){
+    .egreso{
+        clear: both;
+        margin-top: 50px;
+    }
+
+    .ingreso, .egreso{
+        margin-left: 20px;
+    }
+}
